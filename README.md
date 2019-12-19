@@ -21,8 +21,11 @@ import pandas as pd
 date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1은 주말 및 휴일을 뜻합니다.
 
 
+4.데이터 수치화 하기
+<pre><code>gildong.df = pd.get_dummies(gildong.df)</code></pre>
 
-4.일자와 휴일, 관광객 간의 상호관계 확인
+
+5.일자와 휴일, 관광객 간의 상호관계 확인
 <pre><code>gildong.lmplot('date','visit','holiday')</code></pre>
 <img width="521" alt="3 lm플롯" src="https://user-images.githubusercontent.com/55755351/71154643-52966380-227f-11ea-83a7-a56b2ed23468.PNG">
 
@@ -41,7 +44,7 @@ date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1
 <img width="741" alt="6 heat맵" src="https://user-images.githubusercontent.com/55755351/71154832-cb95bb00-227f-11ea-85b7-8a682235400a.PNG">
 
 
-5.상관관계를 이용하여 제주에 입도하는 관광객 수 예측하기
+6.상관관계를 이용하여 제주에 입도하는 관광객 수 예측하기
 <pre><code>gildong.run_all(['date'],'visit')</code></pre>
 <img width="500" alt="런올!!!" src="https://user-images.githubusercontent.com/55755351/71154966-17486480-2280-11ea-887b-1ee96d877ce0.PNG">
 
