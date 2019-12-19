@@ -18,7 +18,7 @@ import pandas as pd
 <pre><code>gildong.read('jejuvisit2.csv')</code></pre>
 <img width="200" height="200" alt="데이터리드" src="https://user-images.githubusercontent.com/55755351/71154186-4e1d7b00-227e-11ea-87a0-04f395a0f53f.PNG">
 
-date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1은 주말을 뜻합니다.
+date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1은 주말 및 휴일을 뜻합니다.
 
 
 
