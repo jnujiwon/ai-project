@@ -29,6 +29,7 @@ date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1
 
 <pre><code>gildong.boxplot('day','visit')</code></pre>
 <img width="806" alt="4박스플롯" src="https://user-images.githubusercontent.com/55755351/71154723-883b4c80-227f-11ea-9828-2064bab2acc3.PNG">
+
 결과와 같이 월,목,일 항공권이 저렴한때 혹은 휴일 전후가 관광객 수가 많은것을 확인 할 수 있었습니다.
 
 
