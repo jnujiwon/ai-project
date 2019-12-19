@@ -1,7 +1,7 @@
-인공지능 과제 "12월1일~15일간의 제주입도 관광객 수를 가지고 휴일별 방문자 수 예측하기"
+인공지능 과제 "12월1일~15일간의 제주 입도 관광객 수 자료를 이용하여 일별 방문자 수 예측하기"
 
-출처 : http://www.visitjeju.or.kr/web/bbs/bbsDtl.do?pageIndex=1&sBbsId=TOURSTATD&bbsId=TOURSTATD&noticeNum=2621&authNum=&sKeyOpt=1&sKey=
 
+자료 출처 : 제주관광협회 http://www.visitjeju.or.kr/web/bbs/bbsDtl.do?pageIndex=1&sBbsId=TOURSTATD&bbsId=TOURSTATD&noticeNum=2621&authNum=&sKeyOpt=1&sKey=
 
 
 1.모듈 불러오기
@@ -42,3 +42,4 @@ date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1
 <img width="500" alt="런올!!!" src="https://user-images.githubusercontent.com/55755351/71154966-17486480-2280-11ea-887b-1ee96d877ce0.PNG">
 
 예측의 결과로 decision_tree와 random_forest를 이용하는것이 인식률이 높은것을 확인할  있었습니다.
+감사합니다.
