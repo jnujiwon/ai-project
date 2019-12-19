@@ -20,6 +20,8 @@ import pandas as pd
 date는 일자를, visit은 관광객 수, day는 요일, holiday 0은 평일, 1은 주말을 뜻합니다.
 
 
+
+
 4.일자와 휴일, 관광객 간의 상호관계 확인
 <pre><code>gildong.lmplot('date','visit','holiday')</code></pre>
 <img width="521" alt="3 lm플롯" src="https://user-images.githubusercontent.com/55755351/71154643-52966380-227f-11ea-83a7-a56b2ed23468.PNG">
